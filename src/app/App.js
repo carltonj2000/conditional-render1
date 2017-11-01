@@ -8,12 +8,14 @@ import Switch from '../switch/switch';
 import Enums from '../enums/enums';
 import HocNot from '../hoc/hocNot';
 import Hoc from '../hoc/hoc';
+import Hoc2 from '../hoc/hoc2';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header"> <h1 className="App-title">Testing Space</h1> </header>
+        <Hoc2 />
         <Hoc />
         <HocNot />
         <Enums />
