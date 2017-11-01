@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 // enum is basically Object/Map, similar to switch without a default
 export const Enum = ({ list }) => {

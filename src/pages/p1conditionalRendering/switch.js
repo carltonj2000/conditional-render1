@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 // len is seperate just to demo propTypes warning generation on console
 export const Switch = ({ list, len }) => { return <div>

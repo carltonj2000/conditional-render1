@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 export const Logic = ({ list }) => {
     return (<div>

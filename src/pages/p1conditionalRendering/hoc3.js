@@ -6,7 +6,7 @@ import {
   renderNothing,
 } from 'recompose';
 
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 export const Hoc2List = ({ list }) => {
   return (<ul>{list.map((item,index) => <li key={index}>{item}</li>)}</ul>);

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 // enum is basically Object/Map, similar to switch without a default
 export const HocNot = ({ list, isLoading }) => {

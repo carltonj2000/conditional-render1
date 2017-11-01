@@ -48,7 +48,7 @@ function App({counter2, name, id, cntr, updateCounter,
   incr, decr, zero, ...others}) {
   return (
     <div>
-      <h1>Hello App Functions</h1>
+    <h1>Page ${others.page} recompose</h1>
       <p>Counter: {counter2}</p>
       <p>
         Cntr: {cntr} &nbsp;

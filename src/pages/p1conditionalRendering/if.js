@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Spinner } from '../utils/styles';
+import { Spinner } from '../../utils/styles';
 
 export const It = ({ list }) => {
   if (!list.length) {
