@@ -4,7 +4,8 @@ Use this code base to test.
 
   - [All  the Conditioanl Rendering in React](https://www.robinwieruch.de/conditional-rendering-react/)
   - [A gentle Introduction to React's Higher Order Components](https://www.robinwieruch.de/gentle-introduction-higher-order-components/)
-  - React Router
+  - [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
+  - [React Router](https://reacttraining.com/react-router/web/example/basic)
 
 
 # Conditional Rendering &amp; HOC
