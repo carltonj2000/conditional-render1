@@ -21,3 +21,7 @@ TOC label is shown and then the component directory.
   - Multi-Level Conditional Rendering - _skip_
   - With Higher Order Components - hoc
   - External Templating Components -_skip_
+
+Skipped multi-level because it is a just a bracketed extension of logical.
+Skipped templating because react does templating without so don't need
+another external templating system.

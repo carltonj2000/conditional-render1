@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-//import postsState from '../posts/postsReducer';
+import categoriesState from '../pages/p3routing/categories/categoriesReducer';
 
 export default combineReducers({
-//  postsState,
+  categoriesState,
 })

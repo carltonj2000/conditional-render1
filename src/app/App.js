@@ -25,17 +25,17 @@ class AppC extends Component {
           <Route path="/page2" render={() => (<div>
             <AppHeader><AppTitle>{this.page[2].title}</AppTitle></AppHeader>
             <h4><Link to="/">Home</Link></h4>
-            <P2recompose page="1" />
+            <P2recompose page="2" />
           </div>)} />
-          <Route path="/page3" render={() => (<div>
+          <Route path="/page3" render={({ match, history }) => (<div>
             <AppHeader><AppTitle>{this.page[3].title}</AppTitle></AppHeader>
             <h4><Link to="/">Home</Link></h4>
-            <P3routing page="3" />
+            <P3routing page="3" url={match.url} history={history} />
           </div>)} />
           <Route render={() => (<div>
             <AppHeader><AppTitle>Top Level</AppTitle></AppHeader>
             <ul>
-            <li><h3><Link to="/page1">{this.page[1].title}</Link></h3></li>
+              <li><h3><Link to="/page1">{this.page[1].title}</Link></h3></li>
               <li><h3><Link to="/page2">{this.page[2].title}</Link></h3></li>
               <li><h3><Link to="/page3">{this.page[3].title}</Link></h3></li>
             </ul>

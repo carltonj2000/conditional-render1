@@ -10,8 +10,9 @@ import Hoc from './hoc';
 import Hoc2 from './hoc2';
 import Hoc3 from './hoc3';
 
-function P1() {
+function P1(props) {
   return (<div>
+      {console.log(props)}
       <Hoc3 />
       <Hoc2 />
       <Hoc />
@@ -23,5 +24,4 @@ function P1() {
       <If />
   </div>);
 }
-
 export default P1;
