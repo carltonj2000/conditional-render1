@@ -27,29 +27,6 @@ class AppC extends Component {
                 {page: k, url: match.url, history: history})}
             </div>)} />
           )}
-          {/* <Route path="/page1" render={() => (<div>
-            <AppHeader><AppTitle>{this.page[1].title}</AppTitle></AppHeader>
-            <h4><Link to="/">Home</Link></h4>
-            <P1conditionalRendering></P1conditionalRendering>
-          </div>)} />
-          <Route path="/page2" render={() => (<div>
-            <AppHeader><AppTitle>{this.page[2].title}</AppTitle></AppHeader>
-            <h4><Link to="/">Home</Link></h4>
-            <P2recompose page="2" />
-          </div>)} />
-          <Route path="/page3" render={({ match, history }) => (<div>
-            <AppHeader><AppTitle>{this.page[3].title}</AppTitle></AppHeader>
-            <h4><Link to="/">Home</Link></h4>
-            <P3routing page="3" url={match.url} history={history} />
-          </div>)} />
-          <Route path="/page4" render={() => (<div>
-            <AppHeader><AppTitle>{this.page[4].title}</AppTitle></AppHeader>
-            <h4><Link to="/">Home</Link></h4>
-            <P4fetch page="4"/>
-          </div>)} />
-          <Route path="/bob" render={() => (<h1>Hi bob 0</h1>)} />
-          <Route path="/bob1" render={() => (<h1>Hi bob 1</h1>)} />
-          <Route path="/bob3" component={Page1} /> */}
           <Route render={() => (<div>
             <AppHeader><AppTitle>Top Level</AppTitle></AppHeader>
             <ul>
@@ -58,7 +35,7 @@ class AppC extends Component {
                   <h3><Link to={`/page${key}`}>{value.title}</Link></h3>
                 </li>
               )}
-          </ul>
+            </ul>
           </div>)} />
         </Switch>
       </App>
