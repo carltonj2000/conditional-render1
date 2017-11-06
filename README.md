@@ -1,10 +1,13 @@
 # React Tests
 
+Initially tested conditional rendering but now used for general react testing.
+
 Use this code base to test.
 
   - [All  the Conditioanl Rendering in React](https://www.robinwieruch.de/conditional-rendering-react/)
   - [A gentle Introduction to React's Higher Order Components](https://www.robinwieruch.de/gentle-introduction-higher-order-components/)
   - [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
+  - [All About React Router 4](https://css-tricks.com/react-router-4/)
   - [React Router](https://reacttraining.com/react-router/web/example/basic)
 
 

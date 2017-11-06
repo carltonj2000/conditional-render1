@@ -27,8 +27,7 @@ class CategoriesComponent extends Component {
     let activeCategory = "all";
     if (this.categories.map(c => c.name).includes(ending)) activeCategory = ending;
     else { if (ending !== "") this.setState(state => ({...state, match: false}))}
-    console.log(activeCategory);
-    //this.props.activateCategory(activeCategory);
+    this.props.activateCategory(activeCategory);
   }
   onClick = (category) => this.props.activateCategory(category);
 
